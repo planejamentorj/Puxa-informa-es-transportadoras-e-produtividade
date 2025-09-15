@@ -48,10 +48,15 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
-
+import time
+import sys
+import tkinter as tk
+from tkinter import messagebox
+import traceback
+import getpass
 
 ##### Login Sap #####
-D
+
 
 
 def excecao_global(exc_type, exc_value, exc_traceback):
